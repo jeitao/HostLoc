@@ -14,7 +14,7 @@ $ git clone https://github.com/anshengme/HostLoc.git
 $ cd HostLoc/
 $ vim docker-compose.yml
 ......
-      TELEGRAM_BOT_TOKEN: ""   # 修改为你的TG机器人TOken，如："797610865:AAHdrMSDAVxSDAV_QQOKMKCqPLKJhuEA3A8"
+      TELEGRAM_BOT_TOKEN: ""   # 修改为你的TG机器人Token，如："797610865:AAHdrMSDAVxSDAV_QQOKMKCqPLKJhuEA3A8"
       CHANNEL_NAM: ""  # 修改为你的频道地址，如："@mjjhost"
 ......
 $ docker-compose up -d  # 需要等待几分钟
