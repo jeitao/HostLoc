@@ -1,0 +1,5 @@
+beautifulsoup4==4.7.1
+requests==2.21.0
+lxml==4.3.0
+python-telegram-bot==11.1.0
+redis==3.0.1
