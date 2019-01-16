@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  redis:
+    image: redis:latest
+
+  main:
+    image: python
+    command: bash -c "cd /src/ && pip install -r requirements.txt && python main.py"
+    environment:
+      TELEGRAM_BOT_TOKEN: ""
+      CHANNEL_NAM: ""
+    depends_on:
+      - redis
+    volumes:
+      - ./:/src
+    links:
+      - redis
